@@ -9,12 +9,7 @@ import ContactCard from "./ContactCard";
 function App() {
   return (
     <div className="container">
-      <Nav />
-      <Header />
-      <Summary />
-      <ContactCard />
-      <FormField />
-      <Button />
+
       <ContactCard
         contact={{
           name: "Test",
@@ -24,9 +19,6 @@ function App() {
           color: "white"
         }}
       />
-      <FormTwo />
-      <FormTwoButton />
-      <Footer />
 
       <ContactCard
         contact={{
